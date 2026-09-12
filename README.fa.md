@@ -6,6 +6,14 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/Par3a-p/Touch-Typing-/blob/main/README.md"><img src="https://img.shields.io/badge/English-README-1f6feb?style=for-the-badge" alt="English README"/></a>
+  &nbsp;
+  <a href="https://github.com/Par3a-p/Touch-Typing-/releases/download/download/Touch.Typing.setup.exe"><img src="https://img.shields.io/badge/⬇%20دانلود-نصبی-2ea44f?style=for-the-badge" alt="دانلود نصبی"/></a>
+  &nbsp;
+  <a href="https://github.com/Par3a-p/Touch-Typing-/releases/download/download/Touch.Typing.protable.exe"><img src="https://img.shields.io/badge/⬇%20دانلود-پرتابل-1f6feb?style=for-the-badge" alt="دانلود پرتابل"/></a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/status-stable-brightgreen" alt="status"/>
   <img src="https://img.shields.io/badge/vanilla--js-ES2020-blue" alt="js"/>
   <img src="https://img.shields.io/badge/license-MIT-yellow" alt="license"/>
@@ -33,11 +41,20 @@
 
 ## 🚀 اجرا
 
-### روش ۱ — دابل‌کلیک (ساده‌ترین)
+### ⭐ روش ۱ — دانلود نسخه ویندوز (توصیه‌شده)
+
+| نسخه | لینک |
+|------|------|
+| **نصبی** (توصیه‌شده) | [Touch.Typing.setup.exe](https://github.com/Par3a-p/Touch-Typing-/releases/download/download/Touch.Typing.setup.exe) |
+| **پرتابل** (بدون نصب) | [Touch.Typing.protable.exe](https://github.com/Par3a-p/Touch-Typing-/releases/download/download/Touch.Typing.protable.exe) |
+
+دانلود کن، اجرا کن، تایپ را شروع کن — بدون نیاز به مرورگر یا سرور.
+
+### روش ۲ — دابل‌کلیک روی `index.html`
 
 فایل `index.html` را در مرورگر باز کنید. تمام.
 
-### روش ۲ — سرور محلی
+### روش ۳ — سرور محلی
 
 ```bash
 # Python

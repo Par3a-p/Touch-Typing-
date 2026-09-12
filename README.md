@@ -1,8 +1,16 @@
-# ⌨️ Touch Typing Trainer  <a href="https://github.com/Par3a-p/Touch-Typing-/blob/main/README.fa.md"> فارسی </a>
+# ⌨️ Touch Typing Trainer
 
 <p align="center">
   <strong>Learn touch typing step by step — Persian & English</strong><br/>
   No server · Double-click to run · Local storage · Fully offline
+</p>
+
+<p align="center">
+  <a href="https://github.com/Par3a-p/Touch-Typing-/blob/main/README.fa.md"><img src="https://img.shields.io/badge/فارسی-README-0d9488?style=for-the-badge" alt="فارسی"/></a>
+  &nbsp;
+  <a href="https://github.com/Par3a-p/Touch-Typing-/releases/download/download/Touch.Typing.setup.exe"><img src="https://img.shields.io/badge/⬇%20Download-Setup.exe-2ea44f?style=for-the-badge" alt="Download Setup"/></a>
+  &nbsp;
+  <a href="https://github.com/Par3a-p/Touch-Typing-/releases/download/download/Touch.Typing.protable.exe"><img src="https://img.shields.io/badge/⬇%20Download-Portable.exe-1f6feb?style=for-the-badge" alt="Download Portable"/></a>
 </p>
 
 <p align="center">
@@ -33,11 +41,20 @@
 
 ## 🚀 Run it
 
-### Option 1 — Double-click (easiest)
+### ⭐ Option 1 — Download the Windows app (recommended)
+
+| Build | Link |
+|-------|------|
+| **Installer** (recommended) | [Touch.Typing.setup.exe](https://github.com/Par3a-p/Touch-Typing-/releases/download/download/Touch.Typing.setup.exe) |
+| **Portable** (no install) | [Touch.Typing.protable.exe](https://github.com/Par3a-p/Touch-Typing-/releases/download/download/Touch.Typing.protable.exe) |
+
+Download, run, and start typing — no browser or server needed.
+
+### Option 2 — Double-click `index.html`
 
 Open `index.html` in your browser. That's it.
 
-### Option 2 — Local server
+### Option 3 — Local server
 
 ```bash
 # Python

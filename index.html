@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="مربی تایپ ده انگشتی — تمرین فارسی و انگلیسی" />
+  <title>مربی تایپ — Touch Typing Trainer</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@400;500;600;700&family=Amiri:ital,wght@0,400;0,700;1,400&family=Baloo+Bhaijaan+2:wght@400;500;600;700&family=Lalezar&family=Markazi+Text:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body data-theme="dark" data-lang="fa">
+  <div id="app" class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="ناوبری اصلی">
+      <div class="sidebar-brand">
+        <div class="brand-mark" aria-hidden="true">
+          <span class="brand-key">A</span>
+        </div>
+        <div class="brand-text">
+          <strong>مربی تایپ</strong>
+          <span>Touch Typing</span>
+        </div>
+      </div>
+      <nav class="sidebar-nav" id="main-nav">
+        <button type="button" class="nav-item is-active" data-route="home">
+          <span class="nav-icon" aria-hidden="true">⌂</span>
+          <span>خانه</span>
+        </button>
+        <button type="button" class="nav-item" data-route="curriculum">
+          <span class="nav-icon" aria-hidden="true">☰</span>
+          <span>مسیر آموزشی</span>
+        </button>
+        <button type="button" class="nav-item" data-route="practice">
+          <span class="nav-icon" aria-hidden="true">⌨</span>
+          <span>تمرین آزاد</span>
+        </button>
+        <button type="button" class="nav-item" data-route="stats">
+          <span class="nav-icon" aria-hidden="true">↗</span>
+          <span>پیشرفت من</span>
+        </button>
+        <button type="button" class="nav-item" data-route="settings">
+          <span class="nav-icon" aria-hidden="true">⚙</span>
+          <span>تنظیمات</span>
+        </button>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="lang-switch" role="group" aria-label="انتخاب زبان مسیر">
+          <button type="button" class="lang-btn is-active" data-set-lang="fa">فارسی</button>
+          <button type="button" class="lang-btn" data-set-lang="en">English</button>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main" id="main-content" tabindex="-1">
+      <div id="page-root" class="page-root"></div>
+    </main>
+  </div>
+
+  <div id="toast-root" class="toast-root" aria-live="polite"></div>
+  <div id="modal-root" class="modal-root" hidden></div>
+
+  <a class="github-fab" href="https://github.com/Par3a-p" target="_blank" rel="noopener noreferrer" title="GitHub — Par3a-p" aria-label="GitHub profile">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="currentColor">
+      <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.8 1.18 1.83 1.18 3.08 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14 0 1.55-.02 2.8-.02 3.18 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/>
+    </svg>
+  </a>
+
+  <script src="js/bundle.js"></script>
+</body>
+</html>

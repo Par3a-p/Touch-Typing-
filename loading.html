@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    width: 100vw; height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    background: #000000;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.container { text-align: center; }
+/* Animation 1: Spinning Ring */
+.anim-spin .spinner {
+    width: 48px; height: 48px;
+    border: 3px solid #FFFFFF33;
+    border-top: 3px solid #FFFFFF;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Animation 2: Pulsing Dots */
+.anim-dots .dots { display: flex; gap: 8px; justify-content: center; }
+.anim-dots .dot {
+    width: 12px; height: 12px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    animation: pulse 1.4s ease-in-out infinite;
+}
+.anim-dots .dot:nth-child(2) { animation-delay: 0.2s; }
+.anim-dots .dot:nth-child(3) { animation-delay: 0.4s; }
+@keyframes pulse {
+    0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
+    40% { transform: scale(1); opacity: 1; }
+}
+
+/* Animation 3: Bouncing Bars */
+.anim-bars .bars { display: flex; gap: 4px; justify-content: center; align-items: flex-end; height: 48px; }
+.anim-bars .bar {
+    width: 6px; background: #FFFFFF; border-radius: 3px;
+    animation: bounce 1.2s ease-in-out infinite;
+}
+.anim-bars .bar:nth-child(1) { animation-delay: 0s; }
+.anim-bars .bar:nth-child(2) { animation-delay: 0.1s; }
+.anim-bars .bar:nth-child(3) { animation-delay: 0.2s; }
+.anim-bars .bar:nth-child(4) { animation-delay: 0.3s; }
+.anim-bars .bar:nth-child(5) { animation-delay: 0.4s; }
+@keyframes bounce {
+    0%, 100% { height: 12px; }
+    50% { height: 40px; }
+}
+
+/* Animation 4: Rotating Square */
+.anim-square .square {
+    width: 36px; height: 36px;
+    border: 3px solid #FFFFFF;
+    border-radius: 6px;
+    animation: rotateSquare 1.5s ease-in-out infinite;
+    margin: 0 auto;
+}
+@keyframes rotateSquare {
+    0% { transform: rotate(0deg) scale(1); }
+    50% { transform: rotate(180deg) scale(0.8); }
+    100% { transform: rotate(360deg) scale(1); }
+}
+
+/* Animation 5: Wave Dots */
+.anim-wave .wave { display: flex; gap: 6px; justify-content: center; align-items: center; height: 48px; }
+.anim-wave .wave-dot {
+    width: 8px; height: 8px; background: #FFFFFF; border-radius: 50%;
+    animation: wave 1.5s ease-in-out infinite;
+}
+.anim-wave .wave-dot:nth-child(1) { animation-delay: 0s; }
+.anim-wave .wave-dot:nth-child(2) { animation-delay: 0.1s; }
+.anim-wave .wave-dot:nth-child(3) { animation-delay: 0.2s; }
+.anim-wave .wave-dot:nth-child(4) { animation-delay: 0.3s; }
+.anim-wave .wave-dot:nth-child(5) { animation-delay: 0.4s; }
+.anim-wave .wave-dot:nth-child(6) { animation-delay: 0.5s; }
+@keyframes wave {
+    0%, 100% { transform: translateY(0); opacity: 0.4; }
+    50% { transform: translateY(-16px); opacity: 1; }
+}
+</style>
+</head>
+<body class="anim-square">
+<div class="container">
+    
+    <div class="square"></div>
+    
+</div>
+<script>setTimeout(function(){location.href='index.html';},1500);</script></body>
+</html>

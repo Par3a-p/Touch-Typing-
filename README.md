@@ -1,4 +1,4 @@
-# ⌨️ Touch Typing Trainer
+# ⌨️ Touch Typing Trainer  <a href="https://github.com/Par3a-p/Touch-Typing-/blob/main/README.fa.md"> فارسی </a>
 
 <p align="center">
   <strong>Learn touch typing step by step — Persian & English</strong><br/>
